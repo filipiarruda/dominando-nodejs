@@ -1,12 +1,11 @@
-class CustomersController {
-  constructor() {
-    this.customers = [
-      { id: 1, name: "Dev", site: "https://dev.to" },
-      { id: 2, name: "Google", site: "https://google.com" },
-      { id: 3, name: "Uol", site: "https://uol.com.br" },
-    ];
-  }
+let customers = [
+    { id: 1, name: "Dev", site: "https://dev.to" },
+    { id: 2, name: "Google", site: "https://google.com" },
+    { id: 3, name: "Uol", site: "https://uol.com.br" },
+  ];
 
+class CustomersController {
+  
   index(req, res) {
     res.json(customers);
   }
