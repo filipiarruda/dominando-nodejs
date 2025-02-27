@@ -4,7 +4,7 @@ module.exports = {
     host: "localhost",
     username: "postgres",
     password: "programacao",
-    database: "cursonode",
+    database: "cursonodejs",
     define: {
         timestamps: true,
         underscored: true,

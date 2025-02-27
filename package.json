@@ -5,7 +5,10 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.21.2",
-    "sequelize": "^6.37.5"
+    "pg": "^8.13.3",
+    "sequelize": "^6.37.5",
+    "string-width": "4",
+    "strip-ansi": "7"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
