@@ -1,11 +1,14 @@
 import express from "express";
 import routes from "./routes";
+import "./database";
+import Database from "./database";
 
 class App {
     constructor() {
         this.server = express();
         this.middlewares();
         this.routes();
+        new Database();
     }
 
     middlewares() {
